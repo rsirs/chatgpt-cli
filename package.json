@@ -1,0 +1,33 @@
+{
+  "name": "chatgpt-cli",
+  "version": "1.0.0",
+  "description": "Command line prompt for chat gpt",
+  "main": "./src/bin/cli.js",
+  "bin": {
+    "chatgpt": "./src/bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "node ./src/utils/doc-generator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsirs/chatgpt-cli.git"
+  },
+  "keywords": [
+    "chatgpt",
+    "cli"
+  ],
+  "author": "Rajasekhar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsirs/chatgpt-cli/issues"
+  },
+  "homepage": "https://github.com/rsirs/chatgpt-cli#readme",
+  "dependencies": {
+    "fs": "^0.0.2",
+    "openai": "^3.2.1",
+    "yargs": "^17.3.1",
+    "yargs-parser": "^21.0.0"
+  }
+}
